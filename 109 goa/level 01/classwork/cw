@@ -1,0 +1,23 @@
+name='givi '
+print(name*10)
+
+name_2='Jamelashvili'
+print(name+name_2)
+
+
+
+name=3.5
+name_2=2
+print(name+name_2)
+print(name*name_2)
+print(name/name_2)
+print(name-name_2)
+print(name//name_2)
+
+
+Name='givi '
+Name_2='12 yr old '
+Name_3='fav color is black'
+print(Name+Name_2+Name_3)
+# mas piroba didad ver gavige meoresi amitom ese davwere1) გააკეთეთ თითო მაგალითი თითო მათემატიკურ ოპერატორზე.
+
