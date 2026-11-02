@@ -1,0 +1,17 @@
+name=float(input('enter your age: '))
+
+if name<8:
+    print('go play roblox loser')
+if name>12:
+    print('you are a teen!')
+if name<12:
+    print('your real life starts here')
+if name==12:
+    print('your real life starts here')
+if name>17:
+    print('now you are an adult!')
+if name==17:
+    print('just one more year!')
+if name>24:
+    print('time to get a job :(')
+

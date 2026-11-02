@@ -1,53 +1,41 @@
-# 2. მომხმარებელს შემოაყვანინე სამი რიცხვი, ხოლო პროგრამამ
-#  დაბეჭდოს მათი საშუალო არითმეტიკული.
+# 2) მომხმარებელს შემოაყვანინე სამი რიცხვი, ხოლო პროგრამამ დაბეჭდოს მათი საშუალო არითმეტიკული.
+num=float(input('enter any number:  '))
+num_2=float(input('another one: '))
+num_3=float(input('...and another one: '))
+print(float(num+num_2+num_3)/3)
 
-num=float(input('enter a number: '))
-num_2=float(input('enter another number: '))
-num_3=float(input('another one: '))
-print('this is the mean of your numbers:')
-print((num+num_2+num_3)/3)
+# 3) მომხმარებელს შემოატანინე ორი რიცხვი და დაბეჭდე მათი ჯამი.
+num=float(input('enter ANOTHER number: '))
+num_2=float(input('another please: '))
+print(float(num_2+num))
 
-# 3. მომხმარებელს შემოატანინე ორი რიცხვი და დაბეჭდე მათი ჯამი.
+#aq yvelgan float imitom davwere rom atwilad ricxvmac da mtel ricxvmac imushaos:me am geniosi.
 
-num=float(input('type ANOTHER number: '))
-num_2=float(input('enter ANOTHER one please: '))
-print('this are your numbers, sum: ')
-print(num+num_2)
-#შენიშვნა: 14 ხაზში "numbers," წინადადებაში ',' არის იგივე ' ანუ უნდა ეწეროს numbers'.
-
-# 4. input ფუნქციის საშუალებით შემოიყვანეთ თქვენი
-# და თქვენი ოჯახის წევრების სახელები და დაპრინტეთ ერთი დიდი წინადადება კონკატენაციის სახით.
-dada=str(input('whats your dad,s name : '))
-moma=str(input('whats your mom,s name : '))
-sister=str(input('whats your sister,s name : '))
-broooo=str(input('whats your brother,s name : '))
-youuu=str(input('whats your name : '))
+# 4) input ფუნქციის საშუალებით შემოიყვანეთ თქვენი და თქვენი ოჯახის
+#  წევრების სახელები და დაპრინტეთ ერთი დიდი წინადადება კონკატენაციის სახით.
+ 
+name=str(input('enter your dad,s name: '))
+name_2=str(input('enter your mom,s name: '))
+name_3=str(input('enter your sister,s name: '))
+name_4=str(input('enter your brother,s name: '))
+name_5=str(input('enter your name: '))
 name_27=' & '
-print(dada+name_27+moma+name_27+sister+name_27+broooo+name_27+youuu)
+print(name+name_27+name_2+name_27+name_3+name_27+name_4+name_27+name_5)
 
-# 5. მომხმარებელს შემოატანინეთ მისი ქალაქის, უბნის,
-#  კორპუსის და სართულის შესახებ ინფორმაცია (რომლებიც უნდა შეინახოთ 
-# ცალ-ცალკე ცვლადებში). მაგ. city = "Tbilisi", District = "{თქვენი უბანი}" 
-# და ა.შ. საბოლოოდ print() ბრძანების საშუალებით
-#  ტერმინალში გამოიტანეთ მომხმარებლის სრული მისამართი.
-city=str(input('type some info about your city: '))
-District=str(input('type some info about your district: '))
-building=str(input('type some info about your building where you live: '))
-floor=str(input('type some info about your building,s floor where your home is located: '))
-print(city+District+building+floor)
-# 6. მომხმარებელს შემოატანინეთ ასაკი და ამოყენებითმსგავსი ფორმატის წინადადება: 
+# 5) მომხმარებელს შემოატანინეთ მისი ქალაქის, უბნის, კორპუსის და სართულის შესახებ ინფორმაცია 
+# (რომლებიც უნდა შეინახოთ ცალ-ცალკე ცვლადებში). მაგ. city = "Tbilisi", District = "{თქვენი უბანი}" 
+# და ა.შ. საბოლოოდ print() ბრძანების საშუალებით ტერმინალში გამოიტანეთ მომხმარებლის სრული მისამართი.
+
+city=str(input('enter info about your city: '))
+District=str(input('enter info about your District: '))
+house=str(input('enter info about your house: '))
+#me kerdzoshi vcxovrob amitom ase davwere XD
+print(city+District+house)
+
+
+# 6) მომხმარებელს შემოატანინეთ ასაკი და ამოყენებითმსგავსი ფორმატის წინადადება: 
 # "You are ასაკი years old".
-age=str(input('enter your age: '))
+age=str(input('enter your age here:  '))
 print('you are '+age+' years old')
 
-#post credit 
-age=int(input('enter your age: '))
-if age<18:
-    print('you are a minorrrrrr')
-if age>17:
-    print('you are an adult!')
-
-    #meorejer davwere ukve se davaleba lol
-
-
-    #TUFF DAVALEBA
+#tuff davaleba.
